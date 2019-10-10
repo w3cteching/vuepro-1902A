@@ -21,6 +21,8 @@
 
     例如：git add index.html
 
+      注意：通常提交哪个文件就add哪个文件，不要全部提交！！！！！！！！！！
+
    3.查看文件状态：git status
 
    4.提交本地仓库：git commit -m '提交的说明文字'
