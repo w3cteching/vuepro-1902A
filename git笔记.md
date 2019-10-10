@@ -40,4 +40,39 @@
 
 ## 利用git将项目推送到远程仓库
 
+  远程仓库：国内(例如：码云)，国外：github,gitlab
+
+
+  以github例：
+
+    1.先注册或登录github
+    2.在本地生成公钥和密钥对
+
+      ssh-keygen -t rsa -b 4096 -C "hjl@aaaa.com"
+
+      通常生成2个文件，存放在c:/Users/你的用户名/.ssh/
+
+        id_rsa
+        id_rsa.pub (放到远程仓库上)
+
+        settings->ssh-new sshkey-->输入标题和id_rsa.pub内容
+
+    3.测试连通
+
+      ssh -T git@github.com
+
+     最后：You've successfully 
+
+    4.连接远程
+git remote add origin 远程仓库地址
+
+
+    5.推送 
+
+    git push -u origin master
+
+    
+
+   
+
 
