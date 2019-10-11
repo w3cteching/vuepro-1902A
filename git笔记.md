@@ -88,6 +88,40 @@ git remote add origin 远程仓库地址
     5.推送 
 
     git push -u origin master
+================================
+
+  1.使用git流程：git add ,git commit , git push
+
+  拉取项目：
+
+     第一次：git clone 远程克隆仓库的地址
+
+      例如：git clone git@github.com:w3cteching/vue-pull-to.git
+
+     第二次：git pull
+
+
+   2.工作区，暂存区，本地仓库的关系？？？
+
+   工作区-git add ->暂存区 -git commit ->版本库-git push->远程仓库
+
+    git add
+
+    git commit 
+
+    git push
+
+
+
+   3.分支管理：
+
+      查看分支：git branch
+
+
+
+
+
+
 
 
 
