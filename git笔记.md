@@ -154,7 +154,9 @@ git remote add origin 远程仓库地址
 
       7.可视化git操作
 
-      
+      git可视化软件：  sourcetree，或通过编辑器内置git来实现可视化
+
+
 
 
 
