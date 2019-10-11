@@ -64,7 +64,21 @@
      最后：You've successfully 
 
     4.连接远程
+    
 git remote add origin 远程仓库地址
+
+  仓库地址：
+
+     ssh:   git@github.com:w3cteching/gitlesson.git
+
+     https: https://github.com/w3cteching/gitlesson.git
+
+     如何查看连接的仓库信息：git remote -v
+
+     删除连接的仓库地址：git remote rm origin
+
+
+     git remote参考资料：http://www.ruanyifeng.com/blog/2014/06/git_remote.html
 
 
     5.推送 
