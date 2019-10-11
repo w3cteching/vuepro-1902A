@@ -3,5 +3,5 @@ function test(a,b) {
 }
 
 function test2() {
-    
+    var a = 10;
 }
