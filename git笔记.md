@@ -80,12 +80,16 @@ git remote add origin 远程仓库地址
 
      git remote参考资料：http://www.ruanyifeng.com/blog/2014/06/git_remote.html
 
+     注意：如何出现git pull不能拉取下来，可以通过下面的命令来解决：
+
+     git pull origin master --allow-unrelated-histories
+
 
     5.推送 
 
     git push -u origin master
 
-    
+
 
    
 
