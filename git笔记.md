@@ -157,6 +157,66 @@ git remote add origin 远程仓库地址
       git可视化软件：  sourcetree，或通过编辑器内置git来实现可视化
 
 
+    ==============================================================
+
+    一、复习一下分支管理：
+
+       查看分支：git branch
+
+       创建分支：git branch 分支名 
+
+       合并分支：git merge 
+
+       删除分支：git branch -d 或 /-D 要删除的分支名
+
+   二、继续分支学习
+
+    1.如何将本地分支提交到远程仓库：
+
+       git push origin 要提交的分支名
+
+       注：若出现提交不上分支，则先设置一下跟踪轨迹：
+
+           git push --set-upstream origin 要提交的分支名
+
+
+      2.删除远程分支：
+
+       git push origin :要删除的分支名
+
+
+      3.tag管理：即版本管理
+
+       查看tag: git tag
+
+       创建tag: git tag tag版本名  //默认打在最近的一次commit id上
+
+        注：可以打在指定的commit id上，
+        
+        格式： git tag tag版本名 commit_id
+
+        例如：git tag v0.1.0 ca641b4
+
+      4.删除tag:
+
+        本地tag删除：git tag -d 要删除的tag名
+
+        远程tag删除：git push origin :要删除的tag名
+
+
+      5.如何利用git协作完成项目：git flow
+
+
+      协作流程：http://www.ruanyifeng.com/blog/2015/12/git-workflow.html
+      git远程操作:http://www.ruanyifeng.com/blog/2014/06/git_remote.html
+
+      mint ui:http://mint-ui.github.io/#!/zh-cn
+
+
+         
+
+       
+    
 
 
 
